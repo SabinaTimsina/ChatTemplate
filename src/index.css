@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.override  {
+    width: 300px !important;
+    margin-right: -120px !important;
+}
+
+.override1{
+    margin: 0px -120px 0px 39px;
+}
+    
+.overridedropdown-menu{
+    min-width: 0rem !important;
+} 
+
+/* dropdown */
+@media only screen and (max-width: 640px) {
+    .css-vga95t {
+        margin-right: -34px !important;
+    }
+  
+}
+/* MainViewStyle */
+.input-group {
+    bottom: 0 !important;
+    height: 100% !important;
+}
+
+/* sideclr */
+.nav-link{
+    color: white !important;
+}
